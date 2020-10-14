@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+/*Navigation bar*/
+.navbar {
+    background-color: #ffffff;
+    background-image: linear-gradient(135deg, #ffffff 0%, #ffc6c8 33%, #ffffff 66%, #ffc6c7 100%);
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+nav ul li a {
+    padding-top: size number
+}
+
+.nav-icon {
+    color: #000;
+    font-size: 17px;
+
+}
+
+.nav-item {
+    padding: 10px
+}
+
+.nav-link {
+    font-family: 'Bitter', serif;
+    font-size: 15.5px;
+    color: #000;
+    font-weight: bold;
+    padding: 20px
+}
+
+.nav-link:hover {
+
+    color: #000;
+    background-color: white
+}
+
+#navbar-brand {
+    padding-left: 70px;
+    color: rgb(66, 66, 66);
+    font-size: 37px;
+}
+
+.dropdown-item {
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    color: #000;
+    background-color: none;
+}
+
+/*Hero Section*/
+#hero {
+    margin-left: 7.7%;
+    margin-top: 0.5%;
+}
+
+/*Card*/
+
+#name-card {
+    opacity: 70%;
+    border: 0px;
+    font-family: 'Bitter', serif;
+    color: black;
+    border-radius: 0px;
+    background-color: #FFC6C8;
+    background-color: #ffffff;
+    background-image: linear-gradient(135deg, #ffffff 0%, #ffc6c8 33%, #ffffff 66%, #ffc6c7 100%);
+
+
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+
+}
+
+/*ICONS*/
+
+.icon-heart {
+    color: deeppink;
+    font-size: 17px;
+}
+
+.heart-clicked {
+    color: red;
+    font-size: 20px;
+}
+
+.icon-star {
+    color: gray;
+}
+
+.star-clicked {
+    color: #2196f3;
+}
+
+#starRatingResult {
+    font-size: 15px;
+    /*    border: 1px solid gray;*/
+    /*    padding: 10px;*/
+    /*    font-weight: bold*/
+    color: black
+}
+
+.starRatingbg {
+    background-image: url("photos/firework.gif");
+    background-size: 50px 50px;
+}
+
+.social-icon {
+    font-size: 18px;
+    color: darkred;
+}
+
+.social-icon:hover {
+    text-decoration: none;
+    /*   transform:scale(2);                               not working*/
+    color: red
+}
+
+/*MAIN*/
+
+#container {
+    margin-top: 620px;
+    padding: 30px;
+    /* border: 1px solid rgb(199, 196, 196); */
+    /* background-color: rgb(255, 232, 232); */
+    background-image: url("photos/pinnkbg.jpg");
+    background-size: 1200px 200px;
+}
+
+@media (max-width:503px) {
+    #container {
+        margin-top: 450px;
+    }
+
+    #description {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}
+
+/* Headings */
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+/* Pie Charts */
+.chart {
+    position: relative;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    margin: 0px 20px;
+    margin-top: 50px;
+}
+
+canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.recipe {
+    line-height: 40px;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    /* color:rgb(59, 59, 59) */
+}
+
+
+/*BUTTONS */
+
+
+#plus,#minus,#noOfSer{
+    outline: none;
+padding: 3px;
+    width: 30px;
+    border: 0.1px solid gray;
+}
+
+input[type="text"]{
+    outline: none;
+    text-align: center;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:503px) {
+    img {
+        height: 300px;
+        width: 83%;
+    }
+
+
+    #container {
+        margin-top: 320px;
+        padding: 30px;
+        /* border: 1px solid rgb(199, 196, 196); */
+        /* background-color: rgb(255, 232, 232); */
+        background-image: url("photos/pinnkbg.jpg");
+        background-size: 1200px 200px;
+    }
+
+}

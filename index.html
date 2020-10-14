@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icy</title>
+
+    <!--    CSS Stylesheet Link-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--    Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+
+    <!--fontawesome kit-->
+    <script src="https://kit.fontawesome.com/78ffd7ca75.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap Javascript Links-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--Bootstrap CSS Links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        
+.type-btn {
+    background-color: none;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 120px;
+    padding: 6px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.type-btn:hover {
+    background-color: #fff;
+    color: #212227;
+}
+
+        body {
+            background-image: url("photos/2.jpg");
+            background-size:100% 100%;
+        }
+
+        @media (max-width:768px) {
+            body {
+                background-image: url("photos/2.jpg");
+                background-size: 1300px 90%;
+                text-align: center;
+             
+            }
+        }
+    </style>
+<script>
+    $(document).ready(function(){
+        $("#s").click(function() {
+
+location.href = "SundaeIndex.html";
+});
+$("#c").click(function() {
+
+location.href = "Creamy.html";
+});
+$("#v").click(function() {
+
+location.href = "Vanilla.html";
+});
+$("#g").click(function() {
+
+location.href = "Gellato.html";
+});
+
+    });
+</script>
+</head>
+
+<body>
+    <!--   Nav bar--------------------------------------------------------------------------------------------------------->
+    <section id="navigationBar">
+        <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
+            <a class="navbar-brand" id="navbar-brand" href="">
+                <i class="fas fa-ice-cream nav-icon" style=" font-size: 35px;"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item " id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#">
+                            <i class="fab fa-facebook  nav-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item " id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#">
+                            <i class="fab fa-instagram nav-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#">
+                            <i class="fab fa-twitter nav-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item " id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#">
+                            <i class="fas fa-search nav-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#">
+                            <i class="fas fa-bars nav-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!--   Nav bar----------------------------------------------------------------------------------------------------------->
+
+
+    <!--   Hero section ----------------------------------------------------------------------------------------------------------->
+
+    <section id="hero">
+        <div class="container-fluid" id="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="row" id="main-heading">
+                        <div class="col-lg-12">
+                            Fruity Ice Cream
+                        </div>
+
+                    </div>
+                    <div class="row long-text">
+                        <div class="col-lg-12">
+                            These delicious fruity Ice Cream can be perfect dessert for any occasion. It's so Yum that you'll eat it till your stomach aches.
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <button type="button" class="btn  btn-lg mt-2 type-btn" id="s">Sandae</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-lg mt-2 type-btn" id="g">Gelato</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn  btn-lg mt-2 type-btn" id="v">Vanilla</button>
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-lg mt-2 type-btn" id="c">Creamy</button>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-right: 0px;">
+                        <div class="col-lg-8  long-text">
+                            These are full of fruits that you'll get all the nutrition from here only. No need to eat fruits now onwards.
+                        </div>
+                        <div class="col" style="text-align: right; ">
+                            <button type="button" class="btn btn-lg mt-2" id="seeall-btn">Choose</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--   Hero section ----------------------------------------------------------------------------------------------------------->
+
+  <!-- Footer  -->
+<br><br><br>
+    <footer id="footer">
+
+        <p> Made with ❤️ by Parul Sharma.</p>
+
+    </footer>
+
+</body>
+
+</html>

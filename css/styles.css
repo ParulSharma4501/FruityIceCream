@@ -1,0 +1,122 @@
+/*BODY*/
+
+body {
+    text-align: center;
+}
+
+/*Navigation bar*/
+
+.nav-icon {
+    color: white;
+    /*    margin: 10px;*/
+    font-size: 17px;
+
+}
+
+/*Hero Section*/
+
+#container-fluid {
+    margin-right: 12%;
+    width: 88%;
+}
+
+.row {
+    /*    border: 1px solid red;*/
+    padding: 18px;
+}
+
+#hero {
+    /*    border: 1px solid white;*/
+    margin-top: 0.7%;
+    color: #fff;
+}
+
+#main-heading {
+    font-size: 90px;
+    font-family: 'Mr De Haviland', cursive;
+}
+
+.long-text {
+    font-size: 15px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/*Buttons*/
+
+.type-btn {
+    background-color: none;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 100px;
+    padding: 6px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.type-btn:hover {
+    background-color: #fff;
+    color: #212227;
+}
+
+#seeall-btn {
+    background-color: #bb0000;
+    color: #fff;
+    border-radius: 50px;
+    width: 120px;
+    padding: 6px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+}
+
+#seeall-btn:hover {
+    background-color: none;
+    /*not working hmm*/
+    border: 1px solid white;
+    color: #fff;
+}
+
+/*Media Queries According to Phone Size*/
+
+@media (max-width:768px) {
+
+    /*    Hero Section*/
+
+    #main-heading {
+    font-size: 60px;
+    font-family: 'Mr De Haviland', cursive;
+}
+    
+    #container-fluid {
+        margin-right: 0%;
+        width: 100%;
+    }
+
+    #hero {
+        margin-top: 0%;
+    }
+
+    #main-heading {
+        font-size: 75px;
+        font-family: 'Mr De Haviland', cursive;
+    }
+
+    /*   Buttons*/
+
+    #type-btn {
+        background-color: #fff;
+        color: #212227;
+    }
+
+    /*
+    #type-btn:hover {
+        background-color: none;
+        color: #fff;
+    }
+*/
+}
+
+footer{
+    color: white;
+    text-align: right
+}

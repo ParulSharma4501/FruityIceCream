@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icy</title>
+
+    <!--    CSS Stylesheet Link-->
+    <link rel="stylesheet" href="css/GellatoCss.css">
+
+    <!--    Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <!--fontawesome kit-->
+    <script src="https://kit.fontawesome.com/78ffd7ca75.js" crossorigin="anonymous"></script>
+
+    <!--Bootstrap Javascript Links-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <!--Bootstrap CSS Links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+body{
+    font-family: 'Grandstander', cursive;
+    background-color: #daf1ff;
+background-image: linear-gradient(135deg, #daf1ff 0%, #ffffff 50%, #daf1ff 100%);
+
+}
+#container{
+    background-image: url("photos/anshu-a-R9KOTIqszTw-unsplash.jpg");
+    background-size: 1150px 1400px;
+   color:  #001350;
+}
+
+    </style>
+    
+     <script>
+    $(document).ready(function(){
+        $("#plus").click(function(){
+
+           var num=  $("#noOfSer").val();
+//            alert(num);
+             $("#noOfSer").val(parseFloat(num)+parseFloat(2));
+            
+             var servings=  $("#Amountservings1").val();
+//            alert(num);
+             $("#Amountservings1").val(servings*2);
+            
+              var servings=  $("#Amountservings2").val();
+//            alert(num);
+             $("#Amountservings2").val(servings*2);
+            
+              var servings=  $("#Amountservings3").val();
+//            alert(num);
+             $("#Amountservings3").val(servings*2);
+            
+              var servings=  $("#Amountservings4").val();
+//            alert(num);
+             $("#Amountservings4").val(servings*2);
+            
+              var servings=  $("#Amountservings5").val();
+//            alert(num);
+             $("#Amountservings5").val(servings*2);
+            
+        });
+        
+        $("#minus").click(function(){
+
+           var num=  $("#noOfSer").val();
+//            alert(num);
+             $("#noOfSer").val( num-2 );
+            
+             var servings=  $("#Amountservings1").val();
+//            alert(num);
+             $("#Amountservings1").val(servings/2);
+            
+              var servings=  $("#Amountservings2").val();
+//            alert(num);
+             $("#Amountservings2").val(servings/2);
+            
+              var servings=  $("#Amountservings3").val();
+//            alert(num);
+             $("#Amountservings3").val(servings/2);
+            
+              var servings=  $("#Amountservings4").val();
+//            alert(num);
+             $("#Amountservings4").val(servings/2);
+            
+              var servings=  $("#Amountservings5").val();
+//            alert(num);
+             $("#Amountservings5").val(servings/2);
+            
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <!--   Nav bar--------------------------------------------------------------------------------------------------------->
+    <section id="navigationBar">
+        <nav class="navbar navbar-expand-lg  shadow-sm p-1.5" id="navbar">
+            <a class="navbar-brand ml-5" id="navbar-brand" href="">
+                <!--                <i class="fas fa-ice-cream nav-icon" style=" font-size: 35px;"></i>-->
+                Recipe Pallate
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto simple-transition">
+                    <li class="nav-item " id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#container">
+                            Ingredients
+                        </a>
+                    </li>
+                    <li class="nav-item " id="nav-item">
+                        <a class="nav-link" id="nav-link" href="#recipe">
+                            Recipe
+                        </a>
+                    </li>
+                     <li class="nav-item " id="nav-item">
+                        <a class="nav-link" id="nav-link" href="">
+                            ❤️
+                        </a>
+                    </li>
+<!--
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More Recipes
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Vanilla</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Gellato</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Creamy</a>
+                        </div>
+                    </li>
+-->
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!--   Nav bar----------------------------------------------------------------------------------------------------------->
+
+    <section id="hero">
+        <img src="photos/Blue sundae icecream.jpg" width="75.7%" height="630" style=" margin-left:50px; position: absolute;  z-index:0;">
+        <div class="card" style="width: 18rem; position: absolute;  z-index: 1; top:20%; left:11.5%" id="name-card">
+            <div class="card-body">
+                <h5 class="card-title">Gellato Icecream</h5>
+                <h6 class="card-subtitle mb-2 mt-4"><i class="fas fa-heart icon-heart"></i>&nbsp;&nbsp;<span
+                        id="num-like">32 Likes</span></h6>
+                <h6 class="card-subtitle mb-2  mt-3">Viewer Ratings</h6>
+                <h6 class="card-subtitle mb-2  mt-2">
+                    <i class="fas fa-star icon-star star-1"></i>&nbsp;&nbsp;
+                    <i class="fas fa-star icon-star star-2"></i>&nbsp;&nbsp;
+                    <i class="fas fa-star icon-star star-3"></i>&nbsp;&nbsp;
+                    <i class="fas fa-star icon-star star-4"></i>&nbsp;&nbsp;
+                    <i class="fas fa-star icon-star star-5"></i><br><br>
+                    <span id="starRatingResult"></span> &nbsp;&nbsp;<div class="starRatingbg">.</div>
+                </h6>
+                <!--
+                <h6 class="mx-auto">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#" class="social-icon"> <i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#" class="social-icon"> <i class="fab fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp; </a>
+                </h6>
+-->
+            </div>
+        </div>
+    </section>
+
+    <!--   Hero section ----------------------------------------------------------------------------------------------------------->
+
+    <!--   Main Section-->
+    <section id="main">
+        <div id="container" class="container">
+         <div class="row">
+             <div class=" col-sm-6">
+                 <div class="row">
+                     <div class="col-6 heading" style="text-align: right"  >Ingredients</div>
+                 </div>
+                 
+                  <div class="row">
+                     <div class="col-6" style="text-align: right">Servings</div>
+                     <div class="col-6" ><input type="button" value=" 2 " id="noOfSer">  <input type="button" value=" + " id="plus" readonly>  <input type="button" value=" - " id="minus"></div>
+                 </div>
+
+                 <div class="row mt-3">
+                   <div class="col-6 " style="float: left; text-align: right"><input type="text" value="1" id="Amountservings1" readonly></div>
+                   <div class="col-6" style="float: left;">Cup Milk</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 " style="float: left; text-align: right"><input type="text" value="0.5" id="Amountservings2" readonly></div>
+                    <div class="col-6" style="float: left;">Cup Heavy Cream</div>
+                 </div>
+                 <div class="row">
+                    <div class="col-6 " style="float: left; text-align: right"><input type="text" value="2" id="Amountservings3" readonly></div>
+                    <div class="col-6" style="float: left;">Egg Yolks</div>
+                 </div>
+                 <div class="row">
+                    <div class="col-6 " style="float: left; text-align: right"><input type="text" value="0.5" id="Amountservings4" readonly></div>
+                    <div class="col-6" style="float: left;">Cup Sugar</div>
+                 </div>
+             </div>
+             
+             <div class=" col-sm-6 mx-auto">
+                 <div class="row heading mx-auto" id="description">Description</div>
+                <div class="row">
+                  Basic Gelato Recipe...from my Italian mother-in-law. This recipe may be used as a base for your favorite flavors. Try adding vanilla, shaved chocolate or your favorite fruits. Experiment with desired flavors!
+                 </div>
+                 <div class="row">
+               <div class="box">
+                <div class="chart" data-percent="16" style="float: left;">16%
+                <canvas height="110" width="110"></canvas>
+                </div>
+                <div class="chart" data-percent="11" style="float: left;">11%</div>
+                <div class="chart" data-percent="44" style="float: left;">44%</div>
+               </div>
+            </div>
+               <div class="row">
+                <div class="col-4 name-chart " style="float: left; text-align: center;">Protien</div>
+                <div class="col-3 name-chart " style="float: left; text-align: left;">Carbs</div>
+                <div class="col-5 name-chart " style="float: left; text-align: left;">fats</div>
+          
+               </div>
+               <br>
+               <hr>
+             </div>
+             </div>
+             <div class="row heading mx-auto" id="recipe">&nbsp;</div>
+             <div class="row heading mx-auto">&nbsp;</div>
+             <div class="row heading mx-auto">RECIPE</div>
+             <div class="row recipe">
+                1. In a medium saucepan, mix milk and cream. Warm until foam forms around the edges. Remove from heat.<br><br>
+                2. In a large bowl, beat the egg yolks and sugar until frothy. Gradually pour the warm milk into the egg yolks, whisking constantly. Return mixture to saucepan; cook over medium heat, stirring with a wooden spoon until the mixture gels slightly and coats the back of the spoon. If small egg lumps begin to show, remove from heat immediately.
+                <br><br>
+                3.Pour the mixture through a sieve or fine strainer into a bowl. Cover, and chill for several hours or overnight.<br><br>
+                4. Pour the mixture into an ice cream maker, and freeze according to the manufacturer's instructions. Transfer to a sealed container, and freeze until firm. If the gelato is too firm, place it in the refrigerator until it reaches the desired consistency.
+        
+             </div>
+
+             
+     <!-- Footer  -->
+<br><br><br>
+    <footer id="footer">
+
+        <i class="socialicon fab fa-facebook-f"></i>&nbsp;&nbsp;&nbsp;
+        <i class="socialicon fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;
+        <i class="socialicon fab fa-twitter"></i>&nbsp;&nbsp;&nbsp;
+        <i class="socialicon fas fa-envelope-square"></i>&nbsp;&nbsp;&nbsp;<br><br>
+        <p>Follow for more recipes.</p>
+
+    </footer>
+
+         </div>
+        </div>
+    </section>
+
+    <!--   Main Section-->
+
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/Sundae.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script>
+        $(function() {
+            $('.chart').easyPieChart({
+                //your options goes here
+            });
+        });
+    </script>
+</body>
+
+</html>
